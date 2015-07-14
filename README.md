@@ -1,4 +1,4 @@
-# ![logo](http://dynamite.zone/images/dyn/logo_wow.png) DynCore
+# ![logo](http://dynamite.zone/images/dyn/logo_wow.png) DynWeb
 
 ## Urge
 
