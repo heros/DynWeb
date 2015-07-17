@@ -1,0 +1,878 @@
+{
+	"dynamic_style": "1",
+	"compression": "0",
+	"twitter": "1",
+	"plusone": "1",
+	"facebook": "1",
+	"panel_default": {
+		"top-a": {
+			"panel": "uk-panel"
+		},
+		"top-b": {
+			"panel": "uk-panel"
+		},
+		"top-c": {
+			"panel": "uk-panel"
+		},
+		"bottom-a": {
+			"panel": "uk-panel"
+		},
+		"bottom-b": {
+			"panel": "uk-panel"
+		},
+		"main-top": {
+			"panel": "uk-panel"
+		},
+		"main-bottom": {
+			"panel": "uk-panel"
+		},
+		"sidebar-a": {
+			"panel": "uk-panel"
+		},
+		"sidebar-b": {
+			"panel": "uk-panel"
+		},
+		"sidebar-main": {
+			"panel": "uk-panel"
+		}
+	},
+	"tracking_code": "",
+	"layouts": {
+		"default": {
+			"style": "WorldOfWarcraft",
+			"sidebar_fixed": "1",
+			"sidebar_togglebar": "0",
+			"article": "tm-article-blog",
+			"sidebars": {
+				"sidebar-a": {
+					"width": "18",
+					"alignment": "right"
+				},
+				"sidebar-b": {
+					"width": "18",
+					"alignment": "right"
+				}
+			},
+			"grid": {
+				"top-a": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"top-b": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"top-c": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"bottom-a": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"bottom-b": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"main-top": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"main-bottom": {
+					"layout": "parallel",
+					"responsive": "medium"
+				}
+			},
+			"block": {
+				"headerbar": {
+					"block_divider": " tm-block-divider"
+				}
+			}
+		},
+		"frontpage": {
+			"style": "default",
+			"system_output": "0",
+			"sidebar_fixed": "1",
+			"sidebar_togglebar": "0",
+			"sidebars": {
+				"sidebar-a": {
+					"width": "15",
+					"alignment": "right"
+				},
+				"sidebar-b": {
+					"width": "15",
+					"alignment": "right"
+				}
+			},
+			"grid": {
+				"top-a": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"top-b": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"top-c": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"bottom-a": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"bottom-b": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"main-top": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"main-bottom": {
+					"layout": "parallel",
+					"responsive": "medium"
+				}
+			},
+			"block": {
+				"top-c": {
+					"block_divider": " tm-block-divider"
+				},
+				"bottom-a": {
+					"block_divider": " tm-block-divider"
+				}
+			},
+			"assignment": {
+				"0": "101"
+			}
+		},
+		"layouts": {
+			"style": "default",
+			"sidebar_fixed": "1",
+			"sidebar_togglebar": "1",
+			"sidebars": {
+				"sidebar-a": {
+					"width": "15",
+					"alignment": "right"
+				},
+				"sidebar-b": {
+					"width": "15",
+					"alignment": "right"
+				}
+			},
+			"grid": {
+				"top-a": {
+					"layout": "parallel",
+					"responsive": "medium",
+					"divider": "1"
+				},
+				"top-b": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"top-c": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"bottom-a": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"bottom-b": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"main-top": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"main-bottom": {
+					"layout": "parallel",
+					"responsive": "medium"
+				}
+			},
+			"block": {
+				"headerbar": {
+					"block_divider": " tm-block-divider"
+				},
+				"top-b": {
+					"block_divider": " tm-block-divider"
+				},
+				"main": {
+					"block_divider": " tm-block-divider"
+				},
+				"bottom-a": {
+					"block_divider": " tm-block-divider"
+				}
+			},
+			"assignment": {
+				"0": "103"
+			}
+		},
+		"blog": {
+			"style": "default",
+			"sidebar_fixed": "1",
+			"sidebar_togglebar": "0",
+			"article": "tm-article-blog",
+			"sidebars": {
+				"sidebar-a": {
+					"width": "18",
+					"alignment": "right"
+				},
+				"sidebar-b": {
+					"width": "12",
+					"alignment": "right"
+				}
+			},
+			"grid": {
+				"top-a": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"top-b": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"top-c": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"bottom-a": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"bottom-b": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"main-top": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"main-bottom": {
+					"layout": "parallel",
+					"responsive": "medium"
+				}
+			}
+		},
+		"block divider main": {
+			"style": "default",
+			"sidebar_fixed": "1",
+			"sidebar_togglebar": "0",
+			"sidebars": {
+				"sidebar-a": {
+					"width": "18",
+					"alignment": "right"
+				},
+				"sidebar-b": {
+					"width": "18",
+					"alignment": "right"
+				}
+			},
+			"grid": {
+				"top-a": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"top-b": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"top-c": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"bottom-a": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"bottom-b": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"main-top": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"main-bottom": {
+					"layout": "parallel",
+					"responsive": "medium"
+				}
+			},
+			"block": {
+				"main": {
+					"block_divider": " tm-block-divider"
+				}
+			},
+			"assignment": {
+				"0": "105",
+				"1": "132",
+				"2": "104"
+			}
+		}
+	},
+	"widgets": {
+		"19": {
+			"class": "",
+			"panel": "uk-panel uk-panel-space",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"41": {
+			"class": "",
+			"panel": "uk-panel uk-panel-box",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"49": {
+			"class": "",
+			"panel": "uk-panel uk-panel-box",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"70": {
+			"class": "uk-text-center",
+			"panel": "uk-panel",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"76": {
+			"class": "",
+			"panel": "uk-panel uk-panel-box",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"78": {
+			"class": "",
+			"panel": "uk-panel uk-panel-box",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"79": {
+			"class": "",
+			"panel": "uk-panel uk-panel-box",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"95": {
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"104": {
+			"icon": ""
+		},
+		"106": {
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"108": {
+			"icon": "tm-icon-yootheme-login"
+		},
+		"110": {
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"111": {
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"112": {
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"113": {
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"114": {
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"115": {
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "0",
+				"small": "1"
+			}
+		},
+		"118": {
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"119": {
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"122": {
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"125": {
+			"class": "uk-text-center",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"137": {
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"139": {
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"142": {
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"143": {
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		}
+	},
+	"menus": {
+		"101": {
+			"icon": "/images/yootheme/icon_wow.png",
+			"subtitle": ""
+		},
+		"102": {
+			"icon": "/images/yootheme/icon_minecraft.png",
+			"subtitle": ""
+		},
+		"103": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"104": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"105": {
+			"icon": "/images/yootheme/wow_phantasia.png",
+			"subtitle": ""
+		},
+		"106": {
+			"icon": "/images/yootheme/icon_gunz.png",
+			"subtitle": ""
+		},
+		"108": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"109": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"110": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"132": {
+			"icon": "/images/yootheme/icon_cs.png",
+			"subtitle": ""
+		},
+		"133": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"134": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"135": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"136": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"140": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"141": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"142": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"143": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"144": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"216": {
+			"icon": "uk-icon-home",
+			"subtitle": ""
+		},
+		"217": {
+			"icon": "/images/yootheme/wow_vesperia.png",
+			"subtitle": ""
+		},
+		"218": {
+			"icon": "uk-icon-gamepad",
+			"subtitle": ""
+		},
+		"219": {
+			"icon": "uk-icon-group",
+			"subtitle": ""
+		},
+		"220": {
+			"icon": "uk-icon-support",
+			"subtitle": ""
+		},
+		"221": {
+			"icon": "uk-icon-user",
+			"subtitle": ""
+		},
+		"235": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"236": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"237": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"238": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"239": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"240": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"241": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"242": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"243": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"244": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"246": {
+			"icon": "uk-icon-group",
+			"subtitle": ""
+		},
+		"247": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"248": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"249": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"250": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"251": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"252": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"253": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"254": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"255": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"256": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"257": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"258": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"259": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"260": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"261": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"262": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"263": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"264": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"265": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"266": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"267": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"268": {
+			"icon": "",
+			"subtitle": ""
+		}
+	}
+}

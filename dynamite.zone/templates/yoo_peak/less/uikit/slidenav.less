@@ -1,0 +1,60 @@
+// Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+//
+// Component: Slidenav
+//
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+
+@slidenav-width:                                40px;
+
+@slidenav-previous-icon:                        "";
+@slidenav-next-icon:                            "";
+
+@slidenav-position-previous:                    -64px;
+@slidenav-position-next:                        -64px;
+
+// Component
+// ========================================================================
+
+.hook-slidenav() {}
+
+.hook-slidenav-hover() {}
+
+.hook-slidenav-active() {}
+
+.hook-slidenav-inverted() {}
+
+.hook-slidenav-inverted-hover() {}
+
+.hook-slidenav-inverted-active() {}
+
+
+// Miscellaneous
+// ========================================================================
+
+.hook-slidenav-misc() {
+
+    .uk-slidenav-previous,
+    .uk-slidenav-next {
+        background-image: url("images/buttons.svg");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        opacity: 0.4;
+    }
+
+    .uk-slidenav-contrast.uk-slidenav-previous,
+    .uk-slidenav-contrast.uk-slidenav-next { background-image: url("images/buttons_contrast.svg"); }
+
+    .uk-slidenav-previous { background-position: 0 -40px; }
+
+    .uk-slidenav-next:hover,
+    .uk-slidenav-previous:hover { opacity: 1; }
+
+    .uk-slidenav-position:hover .uk-slidenav-next { right: 20px; }
+    .uk-slidenav-position:hover .uk-slidenav-previous { left: 20px; }
+
+}

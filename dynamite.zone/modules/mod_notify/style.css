@@ -1,0 +1,18 @@
+.notifcount {
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.joms-noti__notify {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    padding: 8px;
+    background: rgba(0,0,0,0.02);
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.joms-noti__notify a {
+    display: table-cell;
+}
