@@ -14,7 +14,7 @@ class JConfig {
 	public $dbtype = 'mysql';
 	public $host = '127.0.0.1';
 	public $user = 'root';
-	public $password = '';
+	public $password = 'tejeira';
 	public $db = 'dynamite_web';
 	public $dbprefix = 'web_';
 	public $live_site = '';
