@@ -242,17 +242,17 @@ img { -moz-user-select: none; -webkit-user-select: none; user-select: none; }
 
 /* lightweight account completion */
 .bam-wow #layout-middle .wrapper { background: url("../images/layout/bg-middle-varian.1z04t.jpg") no-repeat right 64px; height: 520px; }
-.bam-wow .wow-content { background: url("../local-common/images/game-icons/wow-64.2eCOf.png") no-repeat left 28px; padding: 40px 340px 40px 80px; }
+.bam-wow .wow-content { background: url("../local-common/images/game-icons/icon_wow2x.png") no-repeat left 28px; padding: 40px 340px 40px 80px; }
 .bam-wow .wow-content .caption { margin: 32px 0; }
 .bam-wow .wow-content .button1 { padding: 0; }
 
 /* header */
 #header { padding-top: 50px; clear: both; }
 #header #logo { width: 402px; height: 92px; overflow: hidden; -moz-user-select: none; -webkit-user-select: none; user-select: none; }
-#header #logo a { width: 402px; height: 92px; display: block; border: none; text-indent: -9999px; background: url("../local-common/images/logos/bnet-default.3gnyC.png") no-repeat; }
+#header #logo a { width: 402px; height: 92px; display: block; border: none; text-indent: -9999px; background: url("../local-common/images/logos/logo.png") no-repeat; }
 #header #navigation { margin-top: 5px; padding: 15px 20px 0 0; height: 61px; -moz-user-select: none; -webkit-user-select: none; user-select: none; }
 #header #navigation h2 { margin-bottom: 10px; color: #89959a; font-weight: normal; }
-#header #navigation a { color: #00b6ff; }
+#header #navigation a { color: #FFFFFF; }
 #header .ui-breadcrumb li { padding-right: 15px; background: url("../local-common/images/icons/arrows.1zH8l.gif") 105% -91px no-repeat; }
 #header .ui-breadcrumb li.last { background: none; }
 

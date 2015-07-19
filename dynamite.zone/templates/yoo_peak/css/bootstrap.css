@@ -1,7 +1,5 @@
-/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
-
-@import 'https://fonts.googleapis.com/css?family=Roboto';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:600,400,300';
+@import 'https://fonts.googleapis.com/css?family=Roboto';
 article,
 aside,
 details,
@@ -209,7 +207,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #323232;
+  color: #272727;
   text-decoration: underline;
 }
 .img-rounded {
@@ -613,7 +611,7 @@ h6 {
   font-family: inherit;
   font-weight: normal;
   line-height: 24px;
-  color: #323232;
+  color: #272727;
   text-rendering: optimizelegibility;
 }
 h1 small,
@@ -1690,6 +1688,10 @@ legend + .control-group {
 .form-horizontal .form-actions {
   padding-left: 180px;
 }
+/*Fix for tooltips wrong positioning*/
+.control-label .hasTooltip {
+  display: inline-block;
+}
 table {
   max-width: 100%;
   background-color: transparent;
@@ -2004,7 +2006,7 @@ table th[class*="span"],
 .dropdown-submenu:hover > a,
 .dropdown-submenu:focus > a {
   text-decoration: none;
-  color: #323232;
+  color: #272727;
   background-color: rgba(250, 250, 250, 0);
   background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(242, 242, 242, 0));
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255, 255, 255, 0)), to(rgba(242, 242, 242, 0)));
@@ -2110,7 +2112,7 @@ table th[class*="span"],
   margin-right: -10px;
 }
 .dropdown-submenu:hover > a:after {
-  border-left-color: #323232;
+  border-left-color: #272727;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -2578,7 +2580,7 @@ input[type="submit"].btn.btn-mini {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #323232;
+  color: #272727;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -3056,8 +3058,8 @@ input[type="submit"].btn.btn-mini {
 }
 .nav .dropdown-toggle:hover .caret,
 .nav .dropdown-toggle:focus .caret {
-  border-top-color: #323232;
-  border-bottom-color: #323232;
+  border-top-color: #272727;
+  border-bottom-color: #272727;
 }
 /* move down carets for tabs */
 .nav-tabs .dropdown-toggle .caret {
@@ -3940,13 +3942,14 @@ input[type="submit"].btn.btn-mini {
   line-height: 30px;
 }
 .modal-body {
+  width: 98%;
   position: relative;
-  overflow-y: auto;
   max-height: 400px;
-  padding: 15px;
+  padding: 1%;
 }
 .modal-body iframe {
-  max-height: 390px;
+  width: 100%;
+  max-height: none;
   border: 0 !important;
 }
 .modal-form {
@@ -6180,6 +6183,11 @@ fieldset.radio.btn-group {
 input.invalid {
   border: 1px solid #d24452;
 }
+select.chzn-done.invalid + .chzn-container.chzn-container-single > a.chzn-single,
+select.chzn-done.invalid + .chzn-container.chzn-container-multi > ul.chzn-choices {
+  border-color: #d24452;
+  color: #d24452;
+}
 /* Tweaking of tooltips */
 .tooltip {
   max-width: 400px;
@@ -6234,11 +6242,11 @@ th .tooltip-inner {
  * Due to a bug in the compiler that doesn't handle the relative paths correctly, the @font-face stuff needs to go in the templates less files
 @font-face {
 	font-family: 'IcoMoon';
-	src: url('../fonts/IcoMoon.eot');
-	src: url('../fonts/IcoMoon.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/IcoMoon.woff') format('woff'),
-		url('../fonts/IcoMoon.ttf') format('truetype'),
-		url('../fonts/IcoMoon.svg#IcoMoon') format('svg');
+	src: url("../../../media/jui/fonts/IcoMoon.eot");
+	src: url("../../../media/jui/fonts/IcoMoon.eot?#iefix") format('embedded-opentype'),
+		url("../../../media/jui/fonts/IcoMoon.woff") format('woff'),
+		url("../../../media/jui/fonts/IcoMoon.ttf") format('truetype'),
+		url("../../../media/jui/fonts/IcoMoon.svg#IcoMoon") format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -6255,8 +6263,16 @@ th .tooltip-inner {
   display: inline-block;
   width: 14px;
   height: 14px;
-  *margin-right: .3em;
+  margin-right: .25em;
   line-height: 14px;
+}
+dd > span[class^="icon-"] + time,
+dd > span[class*=" icon-"] + time {
+  margin-left: -0.25em;
+}
+dl.article-info dd.hits span[class^="icon-"],
+dl.article-info dd.hits span[class*=" icon-"] {
+  margin-right: 0;
 }
 /* Use the following CSS code if you want to have a class per icon */
 [class^="icon-"]:before,
@@ -6442,7 +6458,6 @@ th .tooltip-inner {
 .icon-plus-2:before {
   content: "\5d";
 }
-.icon-ban-circle:before,
 .icon-minus-sign:before,
 .icon-minus-2:before {
   content: "\5e";
@@ -6469,6 +6484,7 @@ th .tooltip-inner {
 .icon-not-ok:before {
   content: "\4b";
 }
+.icon-ban-circle:before,
 .icon-minus-circle:before {
   content: "\e216";
 }
@@ -6597,7 +6613,6 @@ th .tooltip-inner {
 .icon-file-plus:before {
   content: "\29";
 }
-.icon-file-remove:before,
 .icon-file-minus:before {
   content: "\e017";
 }
@@ -6984,8 +6999,8 @@ th .tooltip-inner {
 }
 @font-face {
   font-family: 'IcoMoon';
-  src: url('../../../media/jui/fonts/IcoMoon.eot');
-  src: url('../../../media/jui/fonts/IcoMoon.eot?#iefix') format('embedded-opentype'), url('../../../media/jui/fonts/IcoMoon.woff') format('woff'), url('../../../media/jui/fonts/IcoMoon.ttf') format('truetype'), url('../../../media/jui/fonts/IcoMoon.svg#IcoMoon') format('svg');
+  src: url("../../../media/jui/fonts/IcoMoon.eot");
+  src: url("../../../media/jui/fonts/IcoMoon.eot?#iefix") format('embedded-opentype'), url("../../../media/jui/fonts/IcoMoon.woff") format('woff'), url("../../../media/jui/fonts/IcoMoon.ttf") format('truetype'), url("../../../media/jui/fonts/IcoMoon.svg#IcoMoon") format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -7032,7 +7047,7 @@ th .tooltip-inner {
   /* Reset */
   /* Overrides */
   background-color: #f5f5f5;
-  color: #323232;
+  color: #272727;
   box-shadow: none;
   -webkit-transition: background-color 0s;
   -moz-transition: background-color 0s;
@@ -7132,7 +7147,7 @@ th .tooltip-inner {
 .btn-link:focus,
 .btn-link:active,
 .btn-link.uk-active {
-  color: #323232;
+  color: #272727;
 }
 .btn-link:disabled {
   color: #999999;
@@ -7364,7 +7379,7 @@ input.search-query {
   color: #87888a;
 }
 .dropdown-menu .uk-list a:hover {
-  color: #323232;
+  color: #272727;
 }
 .dropdown-menu > li > a {
   /* Reset */
@@ -7577,12 +7592,12 @@ input.search-query {
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
-  color: #323232;
+  color: #272727;
   text-decoration: none;
 }
 .nav-header {
   text-shadow: none;
-  color: #323232;
+  color: #272727;
 }
 /*
  * List
@@ -7597,18 +7612,18 @@ input.search-query {
   /* Reset */
   text-shadow: none;
   /* Override */
-  color: #323232;
+  color: #272727;
 }
 .nav-list > li > a:hover,
 .nav-list > li > a:focus {
   background: rgba(255, 255, 255, 0);
-  color: #323232;
+  color: #272727;
 }
 .nav-list > .active > a,
 .nav-list > .active > a:hover,
 .nav-list > .active > a:focus {
   text-shadow: none;
-  color: #323232;
+  color: #272727;
   background-color: rgba(255, 255, 255, 0);
 }
 .nav-list .divider {
@@ -7692,7 +7707,7 @@ input.search-query {
   border-color: #f5f5f5;
   border-bottom-color: #f5f5f5;
   background: #f5f5f5;
-  color: #323232;
+  color: #272727;
 }
 .nav-tabs > .active > a,
 .nav-tabs > .active > a:hover,
@@ -7758,14 +7773,14 @@ input.search-query {
   /* Overrides */
   border-color: #f5f5f5;
   background: #f5f5f5;
-  color: #323232;
+  color: #272727;
 }
 .nav-tabs li.dropdown.open .caret,
 .nav-tabs li.dropdown.open.active .caret,
 .nav-tabs li.dropdown.open a:hover .caret,
 .nav-tabs li.dropdown.open a:focus .caret {
-  border-top-color: #323232;
-  border-bottom-color: #323232;
+  border-top-color: #272727;
+  border-bottom-color: #272727;
 }
 .nav-tabs .dropdown-toggle .caret {
   margin-left: 5px;

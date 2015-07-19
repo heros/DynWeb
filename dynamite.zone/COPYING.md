@@ -1,3 +1,42 @@
+Examples of Creative Commons License Use
+There’s no right or wrong Creative Commons license. That said, some licenses are more appropriate for some applications than others–for example, only the free licenses (CC0, BY, BY-SA) should be used for public sector information. Sometimes licensors mistakenly think that the license they’re using allows types of reuse that it actually restricts, or vice versa. For more information on this problem, see our page on the differences between free and non-free licenses.
+
+When deciding which license to apply to your work, ask yourself what types of reuse you’d like to encourage, and license accordingly.
+
+We’ve chosen examples of users of each CC license, as well as the CC0 Public Domain Dedication, with information about why each licensor selected the license she did. While there are always arguments to be made for different licenses, we think that these examples serve as good illustrations of the various factors that licensors often take into account when choosing which license to use.
+
+Creative Commons Licenses
+CC0 Public Domain Dedication
+Attribution
+Attribution-ShareAlike
+Attribution-NoDerivs
+Attribution-NonCommercial
+Attribution-NonCommercial-ShareAlike
+Attribution-NonCommercial-NoDerivs
+
+
+CC0 Public Domain Dedication
+By using CC0, you waive all copyright and related rights to a work to the extent possible under the law.
+
+Europeana logo
+Europeana
+Europeana — Europe’s digital library — releases its metadata into the public domain using CC0. This massive dataset consists of descriptive information from a huge trove of digitized cultural and artistic works. By removing all restrictions on the use of the metadata that describes these cultural works, Europeana creates opportunities for developers, designers, and other digital innovators to create applications, games for mobile devices, and websites that visualize and represent the diverse collection of artistic works in Europeana.
+
+Europeana releases 20 million records into the public domain using CC0
+figshare
+figshare allows researchers to publish all of their research outputs in an easily citable, searchable, shareable manner. Figshare has adopted CC0 as the default tool for researchers to share their datasets. In many cases, it can be difficult to ascertain whether a database is subject to copyright law, as many types of data aren’t copyrightable in many jurisdictions. Putting a database or dataset in the public domain under CC0 is a way to remove any legal doubt about whether researchers can use the data in their projects. Hundreds of organizations use CC0 to dedicate their work to the public domain. Although CC0 doesn’t legally require users of the data to cite the source, it does not affect the ethical norms for attribution in scientific and research communities.
+
+Open Goldberg Variations
+Before the Open Goldberg Variations, public domain recordings of Bach’s Goldberg Variations were hard to find, even though the scores themselves were in the public domain. Open Goldberg Variations wanted to change that, so it teamed up with professional musician Kimiko Ishizaka and started a Kickstarter project to create studio-quality recordings, promising to release them into the public domain using the CC0 public domain dedication tool. According to the project founders, “Musicians are usually not willing to withdraw their copyrights and their control over usage, but we feel that they thus miss opportunities to contribute to the greater good and benefit from wider distribution of their works. If this project succeeds, we hope that the recording will be available to everyone forevermore, and that it will be a truly widely known and enjoyed artistic work.” Sure enough, the project was funded at nearly double its original funding goal, and as a result all 30 variations performed by Kimiko Ishizaka are now available for free download via CC0.
+
+Back to top
+
+
+CC Attribution (CC BY)
+This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.
+
+
+
                     GNU GENERAL PUBLIC LICENSE
                        Version 2, June 1991
 

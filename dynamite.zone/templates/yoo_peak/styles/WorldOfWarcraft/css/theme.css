@@ -8456,7 +8456,7 @@ html {
          */
   }
   .uk-notouch body {
-    background: #363636;
+    background: #272727;
   }
   .uk-notouch body .tm-sidebar-togglebar:not(.tm-sidebar-open) {
     margin-left: 50px;
@@ -8516,7 +8516,7 @@ html {
     z-index: -2;
     width: 210px;
     height: 100%;
-    background: #363636;
+    background: #272727;
   }
   .uk-notouch .tm-sidebar .tm-sidebar-nav:not(.uk-open) .uk-dropdown,
   .uk-notouch .tm-sidebar .tm-sidebar-nav:not(.uk-open) .uk-dropdown:before {
@@ -8635,7 +8635,7 @@ html {
   }
   .uk-notouch .tm-sidebar input.uk-search-field {
     width: 190px;
-    background: #313131;
+    background: #222222;
     color: #87888a;
   }
   .uk-notouch .tm-sidebar .uk-search:before {
@@ -8760,7 +8760,7 @@ html {
     height: 100%;
     width: 50px;
     color: #87888a;
-    background: #363636;
+    background: #272727;
     text-align: center;
   }
   .uk-touch .tm-sidebar:before {
